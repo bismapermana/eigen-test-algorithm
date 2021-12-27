@@ -20,7 +20,7 @@ const test2 = (a) => {
 console.log(test2("Saya sangat senang mengerjakan soal algoritma"));
 
 //TEST NO 3
-const hitungKata = (input, query) => {
+const test3 = (input, query) => {
   let output = [];
   query.map((item) => {
     let data = input.filter((each) => each == item);
@@ -29,7 +29,7 @@ const hitungKata = (input, query) => {
   });
   return output;
 };
-console.log(hitungKata(["xc", "dz", "bbb", "dz"], ["bbb", "ac", "dz"]));
+console.log(test3(["xc", "dz", "bbb", "dz"], ["bbb", "ac", "dz"]));
 
 //TEST NO 4
 const test4 = (n) => {
